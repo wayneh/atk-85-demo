@@ -7848,3 +7848,313 @@ atk_get_trace()
 [+0.38836s / 0.00297s / 6.59MB] Getting singleton instance atk.utils.atkdebugger
 [+0.39053s / 0.00217s / 6.60MB] [Deprecated] implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 464)
 [+0.39308s / 0.00255s / 6.67MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 540)
+[+0.01433s / 0.01433s / 0.93MB] New instance made of atkLanguage
+[+0.04713s / 0.03280s / 1.30MB] Server info: localhost (::1)
+[+0.07311s / 0.02598s / 1.29MB] Loading module - lesson_utils
+[+0.19030s / 0.11719s / 1.32MB] Loading module - lesson1
+[+0.19592s / 0.00561s / 1.32MB] Loading module - lesson2
+[+0.20330s / 0.00738s / 1.33MB] Loading module - lesson3
+[+0.21058s / 0.00729s / 1.33MB] Loading module - lesson4
+[+0.21305s / 0.00247s / 1.33MB] Loading module - lesson5
+[+0.21543s / 0.00238s / 1.34MB] Loading module - lesson6
+[+0.21770s / 0.00227s / 1.35MB] Loading module - lesson7
+[+0.21973s / 0.00203s / 1.35MB] Loading module - lesson8
+[+0.22171s / 0.00198s / 1.36MB] Loading module - lesson9
+[+0.22426s / 0.00255s / 1.36MB] Loading module - lesson10
+[+0.22748s / 0.00322s / 1.36MB] creating sessionManager (namespace: default)
+[+0.22865s / 0.00117s / 1.36MB] ATKLevel: 0
+[+0.22991s / 0.00020s / 1.37MB] atkSessionManager::_removeExpiredStacks: no expired stacks, nothing removed
+[+0.23114s / 0.00123s / 1.37MB] Cleaning stack
+[+0.23228s / 0.00113s / 1.37MB] New level on session stack
+[+0.23671s / 0.00444s / 1.48MB] creating securityManager (authenticationtype: db, authorizationtype: db, scheme: group)
+[+0.24430s / 0.00758s / 1.57MB] LoginAttempts: 1
+[+0.24801s / 0.00371s / 1.63MB] Getting singleton instance atk.ui.atkpage
+[+0.24968s / 0.00167s / 1.64MB] Created a new atkPage instance
+[+0.25306s / 0.00338s / 1.67MB] Getting singleton instance atk.ui.atkui
+[+0.25443s / 0.00138s / 1.67MB] Creating a new atkUI instance
+[+0.25803s / 0.00359s / 1.71MB] Getting singleton instance atk.ui.atktheme
+[+0.25951s / 0.00148s / 1.71MB] Created a new atkTheme instance
+[+0.29402s / 0.03451s / 2.24MB] Creating Smarty instance
+[+0.29917s / 0.00515s / 2.40MB] Instantiated new Smarty
+[+0.30076s / 0.00159s / 2.41MB] Getting singleton instance atk.ui.atksmarty
+[+0.32423s / 0.02346s / 2.67MB] Created a new atkOutput instance
+[+0.32987s / 0.00564s / 2.69MB] Sending no-cache headers (lmd: Fri, 10 Jul 2020 09:50:53 GMT)
+[+0.33160s / 0.00174s / 2.69MB] Getting singleton instance atk.utils.atkdebugger
+[+0.33314s / 0.00154s / 2.71MB] [Deprecated] implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 464)
+[+0.33453s / 0.00139s / 2.73MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 540)
+[+0.01734s / 0.01734s / 0.93MB] New instance made of atkLanguage
+[+0.03355s / 0.01620s / 1.42MB] Server info: localhost (::1)
+[+0.03501s / 0.00146s / 1.42MB] Loading module - lesson_utils
+[+0.03906s / 0.00405s / 1.44MB] Loading module - lesson1
+[+0.04493s / 0.00587s / 1.45MB] Loading module - lesson2
+[+0.05202s / 0.00709s / 1.45MB] Loading module - lesson3
+[+0.05920s / 0.00718s / 1.45MB] Loading module - lesson4
+[+0.06721s / 0.00800s / 1.46MB] Loading module - lesson5
+[+0.07438s / 0.00717s / 1.47MB] Loading module - lesson6
+[+0.07694s / 0.00256s / 1.47MB] Loading module - lesson7
+[+0.07888s / 0.00194s / 1.48MB] Loading module - lesson8
+[+0.08068s / 0.00180s / 1.48MB] Loading module - lesson9
+[+0.08242s / 0.00174s / 1.49MB] Loading module - lesson10
+[+0.08450s / 0.00208s / 1.49MB] creating sessionManager (namespace: default)
+[+0.08554s / 0.00104s / 1.49MB] ATKLevel: 0
+[+0.08679s / 0.00022s / 1.42MB] atkSessionManager::_removeExpiredStacks: no expired stacks, nothing removed
+[+0.08791s / 0.00112s / 1.42MB] Cleaning stack
+[+0.08911s / 0.00121s / 1.43MB] New level on session stack
+[+0.09431s / 0.00520s / 1.54MB] creating securityManager (authenticationtype: db, authorizationtype: db, scheme: group)
+[+0.10421s / 0.00989s / 1.71MB] Getting singleton instance atk.ui.atkpage
+[+0.10555s / 0.00134s / 1.72MB] Created a new atkPage instance
+[+0.10842s / 0.00287s / 1.75MB] Getting singleton instance atk.ui.atkui
+[+0.11029s / 0.00188s / 1.76MB] Creating a new atkUI instance
+[+0.11403s / 0.00374s / 1.79MB] Getting singleton instance atk.ui.atktheme
+[+0.11536s / 0.00133s / 1.79MB] Created a new atkTheme instance
+[+0.14839s / 0.03303s / 2.33MB] Creating Smarty instance
+[+0.15299s / 0.00460s / 2.64MB] Instantiated new Smarty
+[+0.15454s / 0.00155s / 2.65MB] Getting singleton instance atk.ui.atksmarty
+[+0.15648s / 0.00194s / 2.65MB] Getting singleton instance atk.ui.atkoutput
+[+0.15768s / 0.00121s / 2.65MB] Created a new atkOutput instance
+[+0.17206s / 0.01437s / 2.80MB] Creating a new menu instance
+[+0.17333s / 0.00127s / 2.80MB] Configured menu layout class: menu.modern
+[+0.17461s / 0.00128s / 2.80MB] Falling back to menu layout class: atk.menu.atkDropdownMenu
+[+0.18254s / 0.00794s / 2.92MB] Getting singleton instance atk.atkcontroller
+[+0.19205s / 0.00951s / 3.38MB] Constructing a new module - lesson_utils
+[+0.19373s / 0.00168s / 3.39MB] Constructing a new module - lesson1
+[+0.19518s / 0.00146s / 3.39MB] Constructing a new module - lesson2
+[+0.19653s / 0.00134s / 3.40MB] Constructing a new module - lesson3
+[+0.19783s / 0.00130s / 3.40MB] Constructing a new module - lesson4
+[+0.19916s / 0.00134s / 3.41MB] Constructing a new module - lesson5
+[+0.20056s / 0.00140s / 3.41MB] Constructing a new module - lesson6
+[+0.20193s / 0.00137s / 3.42MB] Constructing a new module - lesson7
+[+0.20321s / 0.00128s / 3.43MB] Constructing a new module - lesson8
+[+0.20457s / 0.00136s / 3.43MB] Constructing a new module - lesson9
+[+0.20584s / 0.00128s / 3.44MB] Constructing a new module - lesson10
+[+0.21909s / 0.01325s / 3.49MB] Sending no-cache headers (lmd: Fri, 10 Jul 2020 09:50:56 GMT)
+[+0.22037s / 0.00128s / 3.49MB] Getting singleton instance atk.utils.atkdebugger
+[+0.22160s / 0.00123s / 3.51MB] [Deprecated] implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 464)
+[+0.22300s / 0.00140s / 3.54MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 540)
+[+0.01511s / 0.01511s / 0.93MB] New instance made of atkLanguage
+[+0.02826s / 0.01315s / 1.50MB] Server info: localhost (::1)
+[+0.02951s / 0.00125s / 1.49MB] Loading module - lesson_utils
+[+0.03207s / 0.00257s / 1.52MB] Loading module - lesson1
+[+0.03743s / 0.00535s / 1.52MB] Loading module - lesson2
+[+0.04432s / 0.00690s / 1.53MB] Loading module - lesson3
+[+0.05136s / 0.00704s / 1.53MB] Loading module - lesson4
+[+0.05367s / 0.00231s / 1.53MB] Loading module - lesson5
+[+0.05526s / 0.00159s / 1.54MB] Loading module - lesson6
+[+0.05684s / 0.00158s / 1.55MB] Loading module - lesson7
+[+0.05849s / 0.00165s / 1.55MB] Loading module - lesson8
+[+0.06000s / 0.00152s / 1.56MB] Loading module - lesson9
+[+0.06152s / 0.00151s / 1.56MB] Loading module - lesson10
+[+0.06289s / 0.00137s / 1.56MB] creating sessionManager (namespace: default)
+[+0.06390s / 0.00101s / 1.56MB] ATKLevel: -1
+[+0.06499s / 0.00012s / 1.46MB] atkSessionManager::_removeExpiredStacks: no expired stacks, nothing removed
+[+0.06601s / 0.00102s / 1.46MB] Cleaning stack
+[+0.06732s / 0.00131s / 1.47MB] New level on session stack
+[+0.07060s / 0.00328s / 1.58MB] creating securityManager (authenticationtype: db, authorizationtype: db, scheme: group)
+[+0.07417s / 0.00357s / 1.66MB] Using session for authentication / user = administrator
+[+0.07804s / 0.00387s / 1.75MB] Getting singleton instance atk.ui.atkpage
+[+0.07923s / 0.00119s / 1.76MB] Created a new atkPage instance
+[+0.08113s / 0.00190s / 1.79MB] Getting singleton instance atk.ui.atkui
+[+0.08237s / 0.00123s / 1.80MB] Creating a new atkUI instance
+[+0.08477s / 0.00240s / 1.83MB] Getting singleton instance atk.ui.atktheme
+[+0.08657s / 0.00180s / 1.83MB] Created a new atkTheme instance
+[+0.11340s / 0.02683s / 2.37MB] Creating Smarty instance
+[+0.11808s / 0.00469s / 2.68MB] Instantiated new Smarty
+[+0.12009s / 0.00201s / 2.69MB] Getting singleton instance atk.ui.atksmarty
+[+0.12223s / 0.00214s / 2.69MB] Getting singleton instance atk.ui.atkoutput
+[+0.12338s / 0.00115s / 2.69MB] Created a new atkOutput instance
+[+0.13347s / 0.01009s / 2.84MB] Creating a new menu instance
+[+0.13542s / 0.00196s / 2.84MB] Configured menu layout class: menu.modern
+[+0.13692s / 0.00150s / 2.84MB] Falling back to menu layout class: atk.menu.atkDropdownMenu
+[+0.14344s / 0.00652s / 2.96MB] Getting singleton instance atk.atkcontroller
+[+0.15575s / 0.01231s / 3.42MB] Constructing a new module - lesson_utils
+[+0.15733s / 0.00157s / 3.42MB] Constructing a new module - lesson1
+[+0.15877s / 0.00145s / 3.43MB] Constructing a new module - lesson2
+[+0.16027s / 0.00150s / 3.44MB] Constructing a new module - lesson3
+[+0.16180s / 0.00153s / 3.44MB] Constructing a new module - lesson4
+[+0.16330s / 0.00150s / 3.45MB] Constructing a new module - lesson5
+[+0.16465s / 0.00135s / 3.45MB] Constructing a new module - lesson6
+[+0.16603s / 0.00138s / 3.46MB] Constructing a new module - lesson7
+[+0.16753s / 0.00151s / 3.47MB] Constructing a new module - lesson8
+[+0.16961s / 0.00207s / 3.47MB] Constructing a new module - lesson9
+[+0.17124s / 0.00164s / 3.48MB] Constructing a new module - lesson10
+[+0.18038s / 0.00914s / 3.51MB] Constructing a new node lesson10.employee (default)
+[+0.26819s / 0.08781s / 4.53MB] Creating a new node lesson10.employee
+[+0.27172s / 0.00353s / 4.56MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\modules\lesson10\class.employee.inc (line 17)
+[+0.27309s / 0.00137s / 4.57MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\modules\lesson10\class.employee.inc (line 19)
+[+0.27434s / 0.00125s / 4.57MB] [Deprecated] Function create_function() is deprecated in C:\xampp74\htdocs\atk85demo\atk\attributes\class.atkattribute.inc (line 2855)
+[+0.27580s / 0.00146s / 4.58MB] init for employee
+[+0.27972s / 0.00392s / 4.69MB] <b>Table metadata caching is disabled. Turn on $config_meta_caching to improve your application's performance!</b>
+[+0.28121s / 0.00148s / 4.69MB] Creating new database instance with 'atk.db.atkmysqlidb' driver
+[+0.28690s / 0.00569s / 4.84MB] (Re)Initialising database instance with connection name 'default' and mode 'r'
+[+0.28839s / 0.00149s / 4.84MB] atkdb::connect -> Don't switch use current db
+[+0.29704s / 0.00866s / 4.97MB] Retrieving metadata for lesson3_employee
+[+0.29856s / 0.00152s / 4.98MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=0', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT * FROM `lesson3_employee` LIMIT 0
+[+0.30120s / 0.00264s / 5.00MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=1', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SHOW TABLE STATUS LIKE 'lesson3_employee'
+[+0.30489s / 0.00369s / 5.02MB] Table type? lesson3_employee => InnoDB
+[+0.30657s / 0.00168s / 5.00MB] Metadata for lesson3_employee complete
+[+0.30809s / 0.00152s / 5.00MB] atkcontroller::invoke() Invoking 'loadDispatchPage' on controller
+[+0.30977s / 0.00168s / 5.01MB] atkNode::callHandler(); action: admin
+[+0.31099s / 0.00122s / 5.01MB] Calling default handler function for 'admin'
+[+0.31212s / 0.00113s / 5.02MB] atkNode::getHandler(); action: admin
+[+0.31731s / 0.00519s / 5.16MB] atkNode::getHandler: Register default atkActionHandler for employee action: 'admin'
+[+0.31884s / 0.00152s / 5.16MB] Invoking 'action_admin' on actionhandler for action admin
+[+0.32012s / 0.00128s / 5.17MB] Invoking 'adminPage' on actionhandler for action admin
+[+0.32883s / 0.00871s / 5.32MB] Invoking 'adminHeader' on actionhandler for action admin
+[+0.33026s / 0.00143s / 5.32MB] Invoking 'getAddNodeType' on actionhandler for action admin
+[+0.33339s / 0.00313s / 5.37MB] Invoking 'getAddUrl' on actionhandler for action admin
+[+0.33536s / 0.00197s / 5.37MB] Invoking 'getAddNodeType' on actionhandler for action admin
+[+0.35193s / 0.01657s / 5.75MB] New colconfig initialising
+[+0.35905s / 0.00712s / 5.88MB] Constructing a new node lesson10.department (employee.department_id)
+[+0.37945s / 0.02040s / 6.06MB] Creating a new node lesson10.department
+[+0.38132s / 0.00187s / 6.08MB] init for department
+[+0.38346s / 0.00215s / 6.09MB] Retrieving metadata for lesson3_department
+[+0.38669s / 0.00323s / 6.11MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=2', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT * FROM `lesson3_department` LIMIT 0
+[+0.38921s / 0.00252s / 6.16MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=3', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SHOW TABLE STATUS LIKE 'lesson3_department'
+[+0.39260s / 0.00339s / 6.19MB] Table type? lesson3_department => InnoDB
+[+0.39444s / 0.00184s / 6.17MB] Metadata for lesson3_department complete
+[+0.39616s / 0.00171s / 6.19MB] Constructing a new node lesson10.employee (employee.manager_id)
+[+0.39780s / 0.00164s / 6.20MB] Creating a new node lesson10.employee
+[+0.39991s / 0.00211s / 6.23MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\modules\lesson10\class.employee.inc (line 17)
+[+0.40196s / 0.00206s / 6.24MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\modules\lesson10\class.employee.inc (line 19)
+[+0.40390s / 0.00194s / 6.25MB] [Deprecated] Function create_function() is deprecated in C:\xampp74\htdocs\atk85demo\atk\attributes\class.atkattribute.inc (line 2855)
+[+0.40596s / 0.00205s / 6.27MB] init for employee
+[+0.41395s / 0.00799s / 6.40MB] Prepare query: SELECT `lesson3_employee`.`id`, `lesson3_employee`.`name`, `department_id`.`name` AS al_a, `department_id`.`id` AS al_b, `manager_id`.`name` AS al_c, `manager_id`.`id` AS al_d, lesson3_employee.hiredate, `lesson3_employee`.`salary` FROM (`lesson3_employee`)  LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id)  ORDER BY LOWER(`lesson3_employee`.`name`) ASC LIMIT 0, 25
+[+0.41711s / 0.00316s / 6.44MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=4', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT `lesson3_employee`.`id`, `lesson3_employee`.`name`, `department_id`.`name` AS al_a, `department_id`.`id` AS al_b, `manager_id`.`name` AS al_c, `manager_id`.`id` AS al_d, lesson3_employee.hiredate, `lesson3_employee`.`salary` FROM (`lesson3_employee`)  LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id)  ORDER BY LOWER(`lesson3_employee`.`name`) ASC LIMIT 0, 25
+[+0.42073s / 0.00362s / 6.43MB] Prepare query: SELECT COUNT(*) as count FROM `lesson3_employee` LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id) 
+[+0.42314s / 0.00240s / 6.47MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=5', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT COUNT(*) as count FROM `lesson3_employee` LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id) 
+[+0.43101s / 0.00787s / 6.59MB] [Notice] Trying to access array offset on value of type null in C:\xampp74\htdocs\atk85demo\atk\relations\class.atkmanytoonerelation.inc (line 1939)
+[+0.43302s / 0.00200s / 6.59MB] Prepare query: SELECT `lesson3_department`.`id`, `lesson3_department`.`name` FROM (`lesson3_department`)  ORDER BY name
+[+0.43599s / 0.00297s / 6.64MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=6', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT `lesson3_department`.`id`, `lesson3_department`.`name` FROM (`lesson3_department`)  ORDER BY name
+[+0.43847s / 0.00248s / 6.63MB] [Notice] Trying to access array offset on value of type null in C:\xampp74\htdocs\atk85demo\atk\relations\class.atkmanytoonerelation.inc (line 1195)
+[+0.44034s / 0.00187s / 6.65MB] [Notice] Trying to access array offset on value of type null in C:\xampp74\htdocs\atk85demo\atk\relations\class.atkmanytoonerelation.inc (line 1939)
+[+0.44213s / 0.00179s / 6.65MB] Prepare query: SELECT `lesson3_employee`.`id`, `lesson3_employee`.`name` FROM (`lesson3_employee`)  WHERE (department_id = '' AND id<>'') ORDER BY name
+[+0.44429s / 0.00216s / 6.70MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=7', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT `lesson3_employee`.`id`, `lesson3_employee`.`name` FROM (`lesson3_employee`)  WHERE (department_id = '' AND id&lt;&gt;'') ORDER BY name
+[+0.44661s / 0.00232s / 6.69MB] [Notice] Trying to access array offset on value of type null in C:\xampp74\htdocs\atk85demo\atk\relations\class.atkmanytoonerelation.inc (line 1195)
+[+0.44968s / 0.00307s / 6.72MB] Prepare query: SELECT `lesson3_employee`.`id`, `lesson3_employee`.`name`, `department_id`.`name` AS al_a, `department_id`.`id` AS al_b, `manager_id`.`name` AS al_c, `manager_id`.`id` AS al_d, lesson3_employee.hiredate, `lesson3_employee`.`salary`, `lesson3_employee`.`notes`, (SUM(`lesson3_employee`.`salary`)) AS al_e FROM (`lesson3_employee`)  LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id) 
+[+0.45227s / 0.00259s / 6.76MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=8', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT `lesson3_employee`.`id`, `lesson3_employee`.`name`, `department_id`.`name` AS al_a, `department_id`.`id` AS al_b, `manager_id`.`name` AS al_c, `manager_id`.`id` AS al_d, lesson3_employee.hiredate, `lesson3_employee`.`salary`, `lesson3_employee`.`notes`, (SUM(`lesson3_employee`.`salary`)) AS al_e FROM (`lesson3_employee`)  LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id) 
+[+0.46326s / 0.01099s / 6.77MB] Prepare query: SELECT (UPPER(SUBSTRING(`lesson3_employee`.`name`, 1, 1))) AS `index` FROM (`lesson3_employee`)  LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id)  GROUP BY UPPER(SUBSTRING(`lesson3_employee`.`name`, 1, 1)) ORDER BY UPPER(SUBSTRING(`lesson3_employee`.`name`, 1, 1))
+[+0.46551s / 0.00224s / 6.81MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=0&query_id=9', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT (UPPER(SUBSTRING(`lesson3_employee`.`name`, 1, 1))) AS `index` FROM (`lesson3_employee`)  LEFT JOIN lesson3_department department_id ON (lesson3_employee.department_id=department_id.id)  LEFT JOIN `lesson3_employee` manager_id ON (lesson3_employee.manager_id=manager_id.id)  GROUP BY UPPER(SUBSTRING(`lesson3_employee`.`name`, 1, 1)) ORDER BY UPPER(SUBSTRING(`lesson3_employee`.`name`, 1, 1))
+[+0.47225s / 0.00674s / 6.81MB] Invoking 'adminFooter' override on node
+[+0.47886s / 0.00661s / 6.84MB] No messages in atkMessageQueue
+[+0.48678s / 0.00792s / 6.91MB] No messages in atkMessageQueue
+[+0.48885s / 0.00207s / 6.93MB] clearing the stuff
+[+0.49072s / 0.00187s / 6.96MB] Sending no-cache headers (lmd: Fri, 10 Jul 2020 09:51:00 GMT)
+[+0.49200s / 0.00128s / 6.97MB] Getting singleton instance atk.utils.atkdebugger
+[+0.49329s / 0.00129s / 6.98MB] [Deprecated] implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 464)
+[+0.49500s / 0.00171s / 7.05MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 540)
+[+0.01321s / 0.01321s / 0.93MB] New instance made of atkLanguage
+[+0.02683s / 0.01362s / 2.70MB] Server info: localhost (::1)
+[+0.02817s / 0.00134s / 2.69MB] Loading module - lesson_utils
+[+0.03092s / 0.00275s / 2.72MB] Loading module - lesson1
+[+0.03616s / 0.00524s / 2.72MB] Loading module - lesson2
+[+0.04436s / 0.00820s / 2.73MB] Loading module - lesson3
+[+0.05139s / 0.00703s / 2.73MB] Loading module - lesson4
+[+0.05352s / 0.00213s / 2.73MB] Loading module - lesson5
+[+0.05520s / 0.00168s / 2.74MB] Loading module - lesson6
+[+0.05676s / 0.00155s / 2.75MB] Loading module - lesson7
+[+0.05822s / 0.00146s / 2.75MB] Loading module - lesson8
+[+0.05979s / 0.00157s / 2.76MB] Loading module - lesson9
+[+0.06128s / 0.00149s / 2.76MB] Loading module - lesson10
+[+0.06272s / 0.00144s / 2.76MB] creating sessionManager (namespace: default)
+[+0.06371s / 0.00099s / 2.76MB] ATKLevel: 1
+[+0.06486s / 0.00013s / 2.00MB] atkSessionManager::_removeExpiredStacks: no expired stacks, nothing removed
+[+0.06592s / 0.00106s / 2.00MB] New level on session stack
+[+0.06881s / 0.00290s / 2.12MB] creating securityManager (authenticationtype: db, authorizationtype: db, scheme: group)
+[+0.07334s / 0.00453s / 2.20MB] Using session for authentication / user = administrator
+[+0.07708s / 0.00374s / 2.29MB] Getting singleton instance atk.ui.atkpage
+[+0.07857s / 0.00149s / 2.30MB] Created a new atkPage instance
+[+0.08068s / 0.00212s / 2.33MB] Getting singleton instance atk.ui.atkui
+[+0.08196s / 0.00128s / 2.34MB] Creating a new atkUI instance
+[+0.08405s / 0.00209s / 2.37MB] Getting singleton instance atk.ui.atktheme
+[+0.08536s / 0.00130s / 2.37MB] Created a new atkTheme instance
+[+0.10992s / 0.02456s / 2.90MB] Creating Smarty instance
+[+0.11411s / 0.00419s / 3.22MB] Instantiated new Smarty
+[+0.11632s / 0.00221s / 3.23MB] Getting singleton instance atk.ui.atksmarty
+[+0.11764s / 0.00132s / 3.23MB] Getting singleton instance atk.ui.atkoutput
+[+0.11880s / 0.00115s / 3.23MB] Created a new atkOutput instance
+[+0.12673s / 0.00794s / 3.37MB] Creating a new menu instance
+[+0.12797s / 0.00124s / 3.38MB] Configured menu layout class: menu.modern
+[+0.12918s / 0.00120s / 3.38MB] Falling back to menu layout class: atk.menu.atkDropdownMenu
+[+0.13323s / 0.00406s / 3.49MB] Getting singleton instance atk.atkcontroller
+[+0.14085s / 0.00761s / 3.96MB] Constructing a new module - lesson_utils
+[+0.14257s / 0.00172s / 3.96MB] Constructing a new module - lesson1
+[+0.14401s / 0.00143s / 3.97MB] Constructing a new module - lesson2
+[+0.14540s / 0.00140s / 3.97MB] Constructing a new module - lesson3
+[+0.14673s / 0.00133s / 3.98MB] Constructing a new module - lesson4
+[+0.14813s / 0.00141s / 3.99MB] Constructing a new module - lesson5
+[+0.14983s / 0.00170s / 3.99MB] Constructing a new module - lesson6
+[+0.15155s / 0.00172s / 4.00MB] Constructing a new module - lesson7
+[+0.15380s / 0.00225s / 4.00MB] Constructing a new module - lesson8
+[+0.15568s / 0.00188s / 4.01MB] Constructing a new module - lesson9
+[+0.15757s / 0.00189s / 4.02MB] Constructing a new module - lesson10
+[+0.16873s / 0.01115s / 4.05MB] Constructing a new node lesson_utils.sourceviewer (default)
+[+0.17243s / 0.00370s / 4.08MB] Creating a new node lesson_utils.sourceviewer
+[+0.17381s / 0.00138s / 4.08MB] init for sourceviewer
+[+0.17700s / 0.00319s / 4.19MB] <b>Table metadata caching is disabled. Turn on $config_meta_caching to improve your application's performance!</b>
+[+0.17855s / 0.00155s / 4.19MB] Creating new database instance with 'atk.db.atkmysqlidb' driver
+[+0.18261s / 0.00406s / 4.34MB] (Re)Initialising database instance with connection name 'default' and mode 'r'
+[+0.18419s / 0.00158s / 4.34MB] atkdb::connect -> Don't switch use current db
+[+0.19121s / 0.00701s / 4.47MB] Retrieving metadata for 
+[+0.19276s / 0.00155s / 4.48MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=1&query_id=0', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT * FROM `` LIMIT 0
+[+0.19450s / 0.00174s / 4.49MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=1&query_id=1', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SHOW TABLE STATUS LIKE ''
+[+0.20076s / 0.00625s / 4.52MB] Table type?  => InnoDB
+[+0.20264s / 0.00188s / 4.50MB] Metadata query failed.
+[+0.20447s / 0.00183s / 4.50MB] atkcontroller::invoke() Invoking 'loadDispatchPage' on controller
+[+0.20670s / 0.00224s / 4.51MB] atkNode::callHandler(); action: view
+[+0.20821s / 0.00151s / 4.51MB] Calling default handler function for 'view'
+[+0.20959s / 0.00138s / 4.51MB] atkNode::getHandler(); action: view
+[+0.27487s / 0.06528s / 4.68MB] atkNode::getHandler: Register default atkActionHandler for sourceviewer action: 'view'
+[+0.27667s / 0.00180s / 4.69MB] Invoking 'action_view' override on node
+[+0.27842s / 0.00176s / 4.69MB] Setting current item
+[+0.28019s / 0.00177s / 4.70MB] Setting current item
+[+0.28873s / 0.00854s / 4.78MB] No messages in atkMessageQueue
+[+0.29061s / 0.00187s / 4.80MB] Constructing a new node lesson10.employee (default)
+[+0.30713s / 0.01652s / 5.84MB] Creating a new node lesson10.employee
+[+0.30983s / 0.00270s / 5.89MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\modules\lesson10\class.employee.inc (line 17)
+[+0.31154s / 0.00171s / 5.92MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\modules\lesson10\class.employee.inc (line 19)
+[+0.31320s / 0.00165s / 5.94MB] [Deprecated] Function create_function() is deprecated in C:\xampp74\htdocs\atk85demo\atk\attributes\class.atkattribute.inc (line 2855)
+[+0.31496s / 0.00177s / 5.97MB] init for employee
+[+0.31661s / 0.00165s / 6.00MB] Retrieving metadata for lesson3_employee
+[+0.31844s / 0.00183s / 6.05MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=1&query_id=2', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SELECT * FROM `lesson3_employee` LIMIT 0
+[+0.32155s / 0.00311s / 6.12MB] [<a href="javascript:NewWindow('./debugger.php?atkstackid=5f083a0463766&action=query&atkprevlevel=1&query_id=3', 'atkconsole', 800, 600, 'yes', 'yes')">query&nbsp;details</a>] SHOW TABLE STATUS LIKE 'lesson3_employee'
+[+0.32488s / 0.00333s / 6.16MB] Table type? lesson3_employee => InnoDB
+[+0.32669s / 0.00181s / 6.16MB] Metadata for lesson3_employee complete
+[+0.32873s / 0.00205s / 6.14MB] clearing the stuff
+[+0.33065s / 0.00192s / 6.17MB] Sending no-cache headers (lmd: Fri, 10 Jul 2020 09:51:09 GMT)
+[+0.33197s / 0.00132s / 6.18MB] Getting singleton instance atk.utils.atkdebugger
+[+0.33320s / 0.00123s / 6.20MB] [Deprecated] implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 464)
+[+0.33461s / 0.00141s / 6.24MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 540)
+[+0.01070s / 0.01070s / 0.93MB] New instance made of atkLanguage
+[+0.02332s / 0.01263s / 2.33MB] Server info: localhost (::1)
+[+0.02518s / 0.00185s / 2.33MB] Loading module - lesson_utils
+[+0.02775s / 0.00257s / 2.36MB] Loading module - lesson1
+[+0.03407s / 0.00632s / 2.36MB] Loading module - lesson2
+[+0.04143s / 0.00736s / 2.36MB] Loading module - lesson3
+[+0.04847s / 0.00705s / 2.37MB] Loading module - lesson4
+[+0.05599s / 0.00752s / 2.37MB] Loading module - lesson5
+[+0.06434s / 0.00835s / 2.38MB] Loading module - lesson6
+[+0.06607s / 0.00173s / 2.39MB] Loading module - lesson7
+[+0.06760s / 0.00153s / 2.39MB] Loading module - lesson8
+[+0.06918s / 0.00158s / 2.39MB] Loading module - lesson9
+[+0.07083s / 0.00165s / 2.40MB] Loading module - lesson10
+[+0.07292s / 0.00209s / 2.40MB] creating sessionManager (namespace: default)
+[+0.07410s / 0.00118s / 2.40MB] ATKLevel: 0
+[+0.07532s / 0.00011s / 1.86MB] atkSessionManager::_removeExpiredStacks: no expired stacks, nothing removed
+[+0.07653s / 0.00121s / 1.86MB] Cleaning stack
+[+0.07763s / 0.00110s / 1.87MB] New level on session stack
+[+0.08069s / 0.00306s / 1.98MB] creating securityManager (authenticationtype: db, authorizationtype: db, scheme: group)
+[+0.08655s / 0.00586s / 1.56MB] LoginAttempts: 1
+[+0.08985s / 0.00329s / 1.63MB] Getting singleton instance atk.ui.atkpage
+[+0.09152s / 0.00167s / 1.63MB] Created a new atkPage instance
+[+0.09365s / 0.00214s / 1.66MB] Getting singleton instance atk.ui.atkui
+[+0.09486s / 0.00121s / 1.67MB] Creating a new atkUI instance
+[+0.09691s / 0.00205s / 1.70MB] Getting singleton instance atk.ui.atktheme
+[+0.09816s / 0.00125s / 1.71MB] Created a new atkTheme instance
+[+0.12143s / 0.02327s / 2.24MB] Creating Smarty instance
+[+0.12574s / 0.00432s / 2.40MB] Instantiated new Smarty
+[+0.12730s / 0.00156s / 2.40MB] Getting singleton instance atk.ui.atksmarty
+[+0.13342s / 0.00612s / 2.67MB] Created a new atkOutput instance
+[+0.13592s / 0.00249s / 2.68MB] Sending no-cache headers (lmd: Fri, 10 Jul 2020 09:51:13 GMT)
+[+0.13710s / 0.00119s / 2.69MB] Getting singleton instance atk.utils.atkdebugger
+[+0.13874s / 0.00164s / 2.71MB] [Deprecated] implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 464)
+[+0.14020s / 0.00145s / 2.72MB] [Notice] Only variables should be assigned by reference in C:\xampp74\htdocs\atk85demo\atk\utils\class.atkdebugger.inc (line 540)
