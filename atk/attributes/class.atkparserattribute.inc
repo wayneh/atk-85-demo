@@ -1,31 +1,31 @@
 <?php
-  /**
-   * This file is part of the Achievo ATK distribution.
-   * Detailed copyright and licensing information can be found
-   * in the doc/COPYRIGHT and doc/LICENSE files which should be
-   * included in the distribution.
-   *
-   * @package atk
-   * @subpackage attributes
-   *
-   * @copyright (c)2000-2004 Ivo Jansch
-   * @license http://www.achievo.org/atk/licensing ATK Open Source License
-   *
-   * @version $Revision: 6309 $
-   * $Id: class.atkparserattribute.inc 6355 2009-04-21 15:20:09Z lineke $
-   */
+/**
+ * This file is part of the ATK distribution on GitHub.
+ * Detailed copyright and licensing information can be found
+ * in the doc/COPYRIGHT and doc/LICENSE files which should be
+ * included in the distribution.
+ *
+ * @package atk
+ * @subpackage attributes
+ *
+ * @copyright (c)2000-2004 Ivo Jansch
+ * @license http://www.achievo.org/atk/licensing ATK Open Source License
+ *
+ * @version $Revision: 6309 $
+ * $Id$
+ */
 
-  /**
-   * The atkParserAttribute can be used to create links or texts that
-   * contain values, by supplying a template as parameter.
-   *
-   * @author Ivo Jansch <ivo@achievo.org>
-   * @package atk
-   * @subpackage attributes
-   *
-   */
-  class atkParserAttribute extends atkAttribute
-  {
+/**
+ * The atkParserAttribute can be used to create links or texts that
+ * contain values, by supplying a template as parameter.
+ *
+ * @author Ivo Jansch <ivo@achievo.org>
+ * @package atk
+ * @subpackage attributes
+ *
+ */
+class atkParserAttribute extends atkAttribute
+{
     var $m_text;
 
     /**
@@ -34,10 +34,10 @@
      * @param string $text text field
      * @param int $flags Flags for this attribute
      */
-    function atkParserAttribute($name, $text, $flags=0)
+    function __construct($name, $text, $flags = 0)
     {
-      $this->atkAttribute($name,$flags|AF_HIDE_SEARCH|AF_NO_SORT); // base class constructor
-      $this->m_text = $text;
+	    parent::__construct($name, $flags | AF_HIDE_SEARCH | AF_NO_SORT); // base class constructor
+        $this->m_text = $text;
     }
 
     /**
@@ -49,18 +49,18 @@
      * @param String $mode The mode we're in ('add' or 'edit')
      * @return Parsed string
      */
-    function edit($record="", $fieldprefix="", $mode="")
+    function edit($record = "", $fieldprefix = "", $mode = "")
     {
-      return $this->display($record);
+        return $this->display($record);
     }
 
     /**
      * VOID implementation.. parserAttribute has no data associated with it, so you can't search it.
      * @param array $record Array with fields
      */
-    function search($record="")
+	public function search($record = array(), $extended = false, $fieldprefix = "", atkDataGrid $grid = null)
     {
-      return "&nbsp;";
+        return "&nbsp;";
     }
 
     /**
@@ -68,11 +68,11 @@
      * @param array $record  Array with fields
      * @return Parsed string
      */
-    function display($record)
+    function display($record,$mode='')
     {
-      atkimport("atk.utils.atkstringparser");
-      $stringparser = new atkStringParser($this->m_text);
-      return $stringparser->parse($record);
+        atkimport("atk.utils.atkstringparser");
+        $stringparser = new atkStringParser($this->m_text);
+        return $stringparser->parse($record);
     }
 
     /**
@@ -84,7 +84,7 @@
      */
     function store($db, $record, $mode)
     {
-      return true;
+        return true;
     }
 
     /**
@@ -106,8 +106,9 @@
      *                     actions that store something in the database,
      *                     whereas the rest are probably select queries.
      */
-    function addToQuery(&$query, $tablename="", $fieldaliasprefix="", $rec, $level, $mode)
+    function addToQuery(&$query, $tablename = "", $fieldaliasprefix = "", $rec, $level, $mode)
     {
+        
     }
 
     /**
@@ -117,7 +118,7 @@
      */
     function dbFieldType()
     {
-      return "";
+        return "";
     }
-  }
-?>
+
+}

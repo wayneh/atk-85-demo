@@ -43,7 +43,7 @@
   class employee extends atkNode
   {
 
-    function employee()
+    function __construct()
     {
       /**
        * Another flag is introduced in this lesson. It's NF_MRA, which is
@@ -51,7 +51,7 @@
        * checkboxes appears next to the records, and multiple records can now
        * be deleted all at once.
        */
-      $this->atkNode("employee", NF_ADD_LINK|NF_TRACK_CHANGES|NF_MRA);
+      parent::__construct("employee", NF_ADD_LINK|NF_TRACK_CHANGES|NF_MRA);
 
       $this->add(new atkAttribute("id", AF_AUTOKEY));
 

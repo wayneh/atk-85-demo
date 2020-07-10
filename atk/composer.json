@@ -1,0 +1,8 @@
+{
+    "name": "badpenguin/atk-8",
+    "description": "ATK business framework (PHP 7 version)",
+    "homepage": "https://github.com/badpenguin/atk-8",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["framework"]
+}

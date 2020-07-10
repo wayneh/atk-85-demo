@@ -13,9 +13,9 @@
 
   class department extends atkNode
   {
-    function department()
+    function __construct()
     {
-      $this->atkNode("department", NF_ADD_LINK);
+      parent::__construct("department", NF_ADD_LINK);
 
       $this->add(new atkAttribute("id", AF_AUTOKEY));
       $this->add(new atkAttribute("name", AF_OBLIGATORY|AF_UNIQUE|AF_SEARCHABLE));

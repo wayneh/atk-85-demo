@@ -63,7 +63,11 @@ function smarty_function_cycle($params, &$smarty)
         $cycle_vars[$name]['values'] = $params['values'];
     }
 
-    $cycle_vars[$name]['delimiter'] = (isset($params['delimiter'])) ? $params['delimiter'] : ',';
+    if (isset($params['delimiter'])) {
+        $cycle_vars[$name]['delimiter'] = $params['delimiter'];
+    } elseif (!isset($cycle_vars[$name]['delimiter'])) {
+        $cycle_vars[$name]['delimiter'] = ',';       
+    }
     
     if(is_array($cycle_vars[$name]['values'])) {
         $cycle_array = $cycle_vars[$name]['values'];
@@ -87,7 +91,7 @@ function smarty_function_cycle($params, &$smarty)
     }
 
     if($advance) {
-        if ( $cycle_vars[$name]['index'] >= count($cycle_array) -1 ) {
+        if ( $cycle_vars[$name]['index'] >= atkcount($cycle_array) -1 ) {
             $cycle_vars[$name]['index'] = 0;
         } else {
             $cycle_vars[$name]['index']++;

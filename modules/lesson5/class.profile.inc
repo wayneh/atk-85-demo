@@ -14,9 +14,9 @@
 
   class profile extends atkNode
   {
-    function profile()
+    function __construct()
     {
-      $this->atkNode("profile", NF_EDITAFTERADD|NF_NO_VIEW);
+      parent::__construct("profile", NF_EDITAFTERADD|NF_NO_VIEW);
 
       $this->add(new atkAttribute("id",AF_AUTOKEY));
       $this->add(new atkAttribute("name",AF_OBLIGATORY|AF_UNIQUE|AF_SEARCHABLE, 50));

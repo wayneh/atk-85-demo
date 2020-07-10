@@ -1,64 +1,62 @@
 <?php
+/**
+ * This file is part of the ATK distribution on GitHub.
+ * Detailed copyright and licensing information can be found
+ * in the doc/COPYRIGHT and doc/LICENSE files which should be
+ * included in the distribution.
+ *
+ * @package atk
+ * @subpackage utils
+ *
+ * @copyright (c)2006 Ibuildings.nl BV
+ * @license http://www.achievo.org/atk/licensing ATK Open Source License
+ *
+ * @version $Revision: 6320 $
+ * $Id$
+ */
+/**
+ * Message queue flags.
+ */
+define('AMQ_GENERAL', 0);
+define('AMQ_SUCCESS', 1);
+define('AMQ_WARNING', 2);
+define('AMQ_FAILURE', 3);
 
-  /**
-   * This file is part of the Achievo ATK distribution.
-   * Detailed copyright and licensing information can be found
-   * in the doc/COPYRIGHT and doc/LICENSE files which should be
-   * included in the distribution.
-   *
-   * @package atk
-   * @subpackage utils
-   *
-   * @copyright (c)2006 Ibuildings.nl BV
-   * @license http://www.achievo.org/atk/licensing ATK Open Source License
-   *
-   * @version $Revision: 6320 $
-   * $Id: class.atkmessagequeue.inc 6354 2009-04-15 02:41:21Z mvdam $
-   */
-
-  /**
-   * Message queue flags.
-   */
-  define('AMQ_GENERAL', 0);
-  define('AMQ_SUCCESS', 1);
-  define('AMQ_FAILURE', 2);
-
-  /**
-   * This class implements the ATK message queue for showing messages
-   * at the top of a page.
-   *
-   * @author Patrick van der Velden <patrick@ibuildings.nl>
-   * @package atk
-   * @subpackage utils
-   *
-   */
-  class atkMessageQueue
-  {
+/**
+ * This class implements the ATK message queue for showing messages
+ * at the top of a page.
+ *
+ * @author Patrick van der Velden <patrick@ibuildings.nl>
+ * @package atk
+ * @subpackage utils
+ *
+ */
+class atkMessageQueue
+{
 
     /**
-    * Retrieve the atkMessageQueue instance
-    *
-    * @return atkMessageQueue The instance.
-    */
-    function &getInstance()
+     * Retrieve the atkMessageQueue instance
+     *
+     * @return atkMessageQueue The instance.
+     */
+    static function &getInstance()
     {
-      static $s_instance = NULL;
-      if ($s_instance==NULL)
-      {
-        global $g_sessionManager;
-        if (is_object($g_sessionManager)) // don't bother to create if session has not yet been initialised
-        {
-          $s_instance = new atkMessageQueue();
+        static $s_instance = NULL;
+        if ($s_instance == NULL) {
+            global $g_sessionManager;
+            if (is_object($g_sessionManager)) { // don't bother to create if session has not yet been initialised
+                $s_instance = new atkMessageQueue();
+            }
         }
-      }
-      return $s_instance;
+        return $s_instance;
     }
 
     /**
      * Constructor
      */
-    function atkMessageQueue()
+    function __construct()
     {
+        
     }
 
     /**
@@ -69,14 +67,13 @@
      * @param int $type 
      * @return boolean Success
      */
-    function addMessage($txt, $type=AMQ_GENERAL)
+    static function addMessage($txt, $type = AMQ_GENERAL)
     {
-      $instance = &atkMessageQueue::getInstance();
-      if (is_object($instance))
-      {
-        return $instance->_addMessage($txt, $type);
-      }
-      return false;
+        $instance = &atkMessageQueue::getInstance();
+        if (is_object($instance)) {
+            return $instance->_addMessage($txt, $type);
+        }
+        return false;
     }
 
     /**
@@ -87,9 +84,14 @@
      */
     function _getTypeName($type)
     {
-      if ($type == AMQ_SUCCESS) return 'success';
-      else if ($type == AMQ_FAILURE) return 'failure';
-      else return 'general';
+        if ($type == AMQ_SUCCESS)
+            return 'success';
+        else if ($type == AMQ_FAILURE)
+            return 'failure';
+        else if ($type == AMQ_WARNING)
+            return 'warning';
+        else
+            return 'general';
     }
 
     /**
@@ -101,9 +103,9 @@
      */
     function _addMessage($txt, $type)
     {
-      $q = &$this->getQueue();
-      $q[] = array('message' => $txt, 'type' => $this->_getTypeName($type));
-      return true;
+        $q = &$this->getQueue();
+        $q[] = array('message' => $txt, 'type' => $this->_getTypeName($type));
+        return true;
     }
 
     /**
@@ -114,12 +116,11 @@
      */
     function getMessage()
     {
-      $instance = &atkMessageQueue::getInstance();
-      if (is_object($instance))
-      {
-        return $instance->_getMessage();
-      }
-      return "";
+        $instance = &atkMessageQueue::getInstance();
+        if (is_object($instance)) {
+            return $instance->_getMessage();
+        }
+        return "";
     }
 
     /**
@@ -129,8 +130,8 @@
      */
     function _getMessage()
     {
-      $q = &$this->getQueue();
-      return array_shift($q);
+        $q = &$this->getQueue();
+        return array_shift($q);
     }
 
     /**
@@ -138,14 +139,13 @@
      *
      * @return array messages
      */
-    function getMessages()
+    static function getMessages()
     {
-      $instance = &atkMessageQueue::getInstance();
-      if (is_object($instance))
-      {
-        return $instance->_getMessages();
-      }
-      return array();
+        $instance = &atkMessageQueue::getInstance();
+        if (is_object($instance)) {
+            return $instance->_getMessages();
+        }
+        return array();
     }
 
     /**
@@ -155,10 +155,10 @@
      */
     function _getMessages()
     {
-      $q = &$this->getQueue();
-      $queue_copy = $q;
-      $q = array();
-      return $queue_copy;
+        $q = &$this->getQueue();
+        $queue_copy = $q;
+        $q = array();
+        return $queue_copy;
     }
 
     /**
@@ -168,14 +168,12 @@
      */
     function &getQueue()
     {
-      $sessionmgr = &atkGetSessionManager();
-      $session = &$sessionmgr->getSession();
-      if (!isset($session['atkmessagequeue']))
-      {
-        $session['atkmessagequeue'] = array();
-      }
-      return $session['atkmessagequeue'];
+        $sessionmgr = &atkGetSessionManager();
+        $session = &$sessionmgr->getSession();
+        if (!isset($session['atkmessagequeue'])) {
+            $session['atkmessagequeue'] = array();
+        }
+        return $session['atkmessagequeue'];
     }
-  }
 
-?>
+}

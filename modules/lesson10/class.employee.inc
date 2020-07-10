@@ -7,9 +7,9 @@
 
   class employee extends atkNode
   {
-    function employee()
+    function __construct()
     {
-      $this->atkNode("employee", NF_ADD_LINK);
+      parent::__construct("employee", NF_ADD_LINK);
 
       $this->add(new atkAttribute("id", AF_AUTOKEY));
       $this->add(new atkAttribute("name", AF_OBLIGATORY|AF_UNIQUE|AF_SEARCHABLE));

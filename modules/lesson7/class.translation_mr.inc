@@ -28,14 +28,14 @@
 
   class translation_mr extends atkNode
   {
-    function translation_mr()
+    function __construct()
     {
       /**
        * To tell ATK that we want to use row based internationalisation
        * instead of column based, we have to pass the NF_ML flag to the
        * node
        */
-      $this->atkNode("translation_mr", NF_ADD_LINK|NF_ML);
+      parent::__construct("translation_mr", NF_ADD_LINK|NF_ML);
 
       $this->add(new atkAttribute("id", AF_AUTOKEY));
       $this->add(new atkMlSelectorAttribute("mlselect"));

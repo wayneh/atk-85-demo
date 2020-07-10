@@ -12,14 +12,6 @@ This library is free software.
 You can redistribute and modify it even for commercial usage,
 but you must accept and respect the LPGL License (v2.1 or later).
 */
-// Check PHP version
-if (PHP_VERSION<'4.0.6') {
-  echo '<br><b>TinyButStrong Error</b> (PHP Version Check) : Your PHP version is '.PHP_VERSION.' while TinyButStrong needs PHP version 4.0.6 or higher.';
-} elseif (PHP_VERSION<'4.1.0') {
-  function array_key_exists (&$key,&$array) {
-    return key_exists($key,$array);
-  }
-}
 
 // Render flags
 define('TBS_NOTHING', 0);
@@ -255,7 +247,7 @@ function DataOpen(&$Query,&$PageSize,&$PageNum,&$RecStop) {
         $Var =& $GLOBALS[$VarName];
         if (is_array($Var)) {
           $Ok = true;
-          $KeyMax = count($Keys)-1;
+          $KeyMax = atkcount($Keys)-1;
           $KeyNum = 0;
           while ($Ok and ($KeyNum<=$KeyMax)) {
             if (isset($Var[$Keys[$KeyNum]])) {
@@ -786,7 +778,7 @@ function meth_Locator_FindTbs(&$Txt,$Name,$Pos,$ChrSub) {
   if ($Loc->SubOk) {
     $Loc->FullName = $Name.'.'.$Loc->SubName;
     $Loc->SubLst = explode('.',$Loc->SubName);
-    $Loc->SubNbr = count($Loc->SubLst);
+    $Loc->SubNbr = atkcount($Loc->SubLst);
   } else {
     $Loc->FullName = $Name;
   }
@@ -1262,7 +1254,7 @@ function meth_Locator_FindBlockLst(&$Txt,$BlockName,$Pos) {
       }
   
       // Merge block parameters
-      if (count($Loc->PrmLst)>0) $LocR->PrmLst = array_merge($LocR->PrmLst,$Loc->PrmLst);
+      if (atkcount($Loc->PrmLst)>0) $LocR->PrmLst = array_merge($LocR->PrmLst,$Loc->PrmLst);
   
       // Save the block and cache its tags (incrments $LocR->BlockNbr)
       tbs_Locator_SectionAddBlk($LocR,$BlockName,$Loc->BlockSrc);
@@ -1396,7 +1388,7 @@ function meth_Merge_Block(&$Txt,&$BlockName,&$SrcId,&$Query,$PageSize,$PageNum,$
 
   $BlockId = 0;
   $BlockLst = explode(',',$BlockName);
-  $BlockNbr = count($BlockLst);
+  $BlockNbr = atkcount($BlockLst);
   $WasP1 = false;
   $NbrRecTot = 0;
   $QueryZ =& $Query;
@@ -2228,7 +2220,7 @@ function meth_Misc_UserFctCheck(&$FctInfo,&$ErrMsg) {
   if (substr($FctInfo,0,1)==='~') {
     $ObjRef =& $this->ObjectRef;
     $Lst = explode('.',substr($FctInfo,1));
-    $iMax = count($Lst) - 1;
+    $iMax = atkcount($Lst) - 1;
     for ($i=0;$i<=$iMax;$i++) {
       $x =& $Lst[$i];
       if (is_object($ObjRef)) {
@@ -2446,7 +2438,7 @@ function tbs_Misc_Format(&$Loc,&$Value) {
       $FrmLst =& $_tbs_FrmMultiLst[$FrmStr];
     } else {
       $FrmLst = explode('|',$FrmStr); // syntax : PostiveFrm|NegativeFrm|ZeroFrm|NullFrm
-      $FrmNbr = count($FrmLst);
+      $FrmNbr = atkcount($FrmLst);
       if (($FrmNbr<=1) or ($FrmLst[1]==='')) {
         $FrmLst[1] =& $FrmLst[0]; // negativ
         $FrmLst['abs'] = false;

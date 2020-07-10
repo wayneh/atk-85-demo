@@ -1,7 +1,6 @@
 <?php
-
 /**
- * This file is part of the Achievo ATK distribution.
+ * This file is part of the ATK distribution on GitHub.
  * Detailed copyright and licensing information can be found
  * in the doc/COPYRIGHT and doc/LICENSE files which should be
  * included in the distribution.
@@ -13,7 +12,7 @@
  * @license http://www.achievo.org/atk/licensing ATK Open Source License
  *
  * @version $Revision: 4599 $
- * $Id: function.atkconfig.php 6354 2009-04-15 02:41:21Z mvdam $
+ * $Id$
  */
 
 /**
@@ -23,7 +22,7 @@
  */
 function smarty_function_atkconfig($params, &$smarty)
 {
-  $smarty->assign($params["smartyvar"], atkconfig($params["var"]));
+    $smarty->assign($params["smartyvar"], atkconfig($params["var"]));
 }
 
 ?>

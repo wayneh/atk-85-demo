@@ -2,9 +2,9 @@
 
   class sourceviewer extends atkNode
   {
-    function sourceviewer()
+    function __construct()
     {
-      $this->atkNode("sourceviewer");
+      parent::__construct("sourceviewer");
     }
 
     function getSourceFileName($module, $node)

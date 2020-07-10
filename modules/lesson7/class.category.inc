@@ -25,14 +25,14 @@
 
   class category extends atkTreeNode
   {
-    function category()
+    function __construct()
     {
       /**
        * The NF_TREE_* flags are specifically designed to tweak behaviour of
        * the tree. NF_TREE_NO_ROOT_COPY establishes that root items can not be
        * copied. NF_TREE_NO_ROOT_DELETE disables deletion of tree root items.
        */
-      $this->atkTreeNode("category",NF_COPY|NF_TREE_NO_ROOT_COPY|NF_TREE_NO_ROOT_DELETE|NF_ADD_LINK);
+      parent::__construct("category",NF_COPY|NF_TREE_NO_ROOT_COPY|NF_TREE_NO_ROOT_DELETE|NF_ADD_LINK);
 
       $this->add(new atkAttribute("cat_id",AF_HIDE|AF_PRIMARY|AF_AUTO_INCREMENT));
       $this->add(new atkAttribute("title",AF_SEARCHABLE|AF_OBLIGATORY));

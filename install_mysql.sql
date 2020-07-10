@@ -15,7 +15,7 @@ CREATE TABLE lesson1_employee
   notes text,
   salary decimal(10,2) default NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson1_employee`
@@ -35,7 +35,7 @@ CREATE TABLE lesson2_department
   id int(11) NOT NULL auto_increment,
   name varchar(100) NOT NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson2_department`
@@ -59,7 +59,7 @@ CREATE TABLE lesson2_employee
   salary decimal(10,2) default NULL,
   manager_id int(11) default NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson2_employee`
@@ -79,7 +79,7 @@ CREATE TABLE lesson3_department
   name varchar(100) NOT NULL,
   is_hiring int(1) NOT NULL default '1',
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson3_department`
@@ -103,7 +103,7 @@ CREATE TABLE lesson3_employee
   salary decimal(10,2) default NULL,
   manager_id int(11) default NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson3_employee`
@@ -124,7 +124,7 @@ CREATE TABLE lesson4_department
   name varchar(100) NOT NULL,
   is_hiring int(1) NOT NULL default '1',
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson4_department`
@@ -149,7 +149,7 @@ CREATE TABLE lesson4_employee
   salary decimal(10,2) default NULL,
   manager_id int(11) default NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson4_employee`
@@ -170,7 +170,7 @@ CREATE TABLE lesson5_accessright
   action varchar(25) NOT NULL,
   profile_id varchar(10) NOT NULL,
   PRIMARY KEY  (node,action,profile_id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson5_accessright`
@@ -197,7 +197,7 @@ CREATE TABLE lesson5_department
   name varchar(100) NOT NULL,
   is_hiring int(1) NOT NULL default '1',
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson5_department`
@@ -225,7 +225,7 @@ CREATE TABLE lesson5_employee
   manager_id int(11) default NULL,
   profile_id int(11) default NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson5_employee`
@@ -245,7 +245,7 @@ CREATE TABLE lesson5_profile
   id int(10) NOT NULL auto_increment,
   name varchar(50) NOT NULL,
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson5_profile`
@@ -266,7 +266,7 @@ CREATE TABLE lesson6_employee1
   notes text,
   salary double(8,1) default NULL,
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson6_employee1`
@@ -290,7 +290,7 @@ CREATE TABLE lesson6_employee2
   salary double(8,1) default NULL,
   lesson6_department_id int(11) NOT NULL,
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson6_employee2`
@@ -313,7 +313,7 @@ CREATE TABLE lesson6_employee3
   notes text,
   salary double(8,1) default NULL,
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson6_employee3`
@@ -337,7 +337,7 @@ CREATE TABLE lesson6_employee4
   salary double(8,1) default NULL,
   lesson6_department_id int(11) NOT NULL,
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson6_employee4`
@@ -358,7 +358,7 @@ CREATE TABLE lesson6_department
   name varchar(100) NOT NULL,
   is_hiring int(1) NOT NULL default '1',
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson6_department`
@@ -378,7 +378,7 @@ CREATE TABLE lesson7_category
   title varchar(50) NOT NULL,
   parent_cat_id int(11),
   PRIMARY KEY (cat_id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson7_category`
@@ -411,7 +411,7 @@ CREATE TABLE lesson7_translation
   htmlnotes_de text,
   htmlnotes_en text,
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 # --------------------------------------------------------
 
@@ -428,7 +428,7 @@ CREATE TABLE lesson7_translation_mr
   htmlnotes text,
   lng varchar(10) NOT NULL default 'EN',
   PRIMARY KEY (id, lng)
-) TYPE=MyISAM;
+) ;
 
 #
 # Table structure for table `lesson8_employee`
@@ -442,7 +442,7 @@ CREATE TABLE lesson8_employee
   notes text,
   salary decimal(10,2) default NULL,
   PRIMARY KEY (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson8_employee`
@@ -466,7 +466,7 @@ CREATE TABLE lesson9_employee
   notes text,
   salary decimal(10,2),
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson9_employee`
@@ -486,7 +486,7 @@ CREATE TABLE lesson9_project
   id int(11) NOT NULL auto_increment,
   name varchar(50) NOT NULL,
   PRIMARY KEY  (id)
-) TYPE=MyISAM;
+) ;
 
 #
 # Demo data for table `lesson9_project`
@@ -506,7 +506,7 @@ CREATE TABLE lesson9_employeeproject
   employee_id int(11) NOT NULL,
   project_id int(11) NOT NULL,
   PRIMARY KEY  (employee_id, project_id)
-) TYPE=MyISAM;
+) ;
 
 # --------------------------------------------------------
 

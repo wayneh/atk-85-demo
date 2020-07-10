@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the Achievo ATK distribution.
+ * This file is part of the ATK distribution on GitHub.
  * Detailed copyright and licensing information can be found
  * in the doc/COPYRIGHT and doc/LICENSE files which should be
  * included in the distribution.
@@ -12,7 +12,7 @@
  * @license http://www.achievo.org/atk/licensing ATK Open Source License
  *
  * @version $Revision: 4362 $
- * $Id: function.atkthemeicon.php 6354 2009-04-15 02:41:21Z mvdam $
+ * $Id$
  */
 
 /**
@@ -36,6 +36,6 @@
  */
 function smarty_function_atkthemeicon($params, &$smarty)
 {
-  $theme = &atkinstance("atk.ui.atktheme");
-  return $theme->iconPath($params['name'], $params['type']);
+    $theme = &atkinstance("atk.ui.atktheme");
+    return $theme->iconPath($params['name'], $params['type']);
 }

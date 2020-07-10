@@ -39,9 +39,9 @@
 
   class translation extends atkNode
   {
-    function translation()
+    function __construct()
     {
-      $this->atkNode("translation", NF_ADD_LINK);
+      parent::__construct("translation", NF_ADD_LINK);
 
       $this->add(new atkAttribute("id", AF_AUTOKEY));
 
