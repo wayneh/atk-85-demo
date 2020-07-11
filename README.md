@@ -13,6 +13,8 @@ ATK-85-Demo is licensed under the terms of the GNU GPL v2.
 
 For more information, see - 
 
-http://www.atkframework.com
-http://atk-framework.com/wiki/ATK
-https://www.atk-framework.com/forum/
+[ATK 8.5 on Github](https://github.com/wayneh/atk-85)
+
+[ATK Wiki](http://atk-framework.com/wiki/ATK)
+
+[ATK Community Forum](https://www.atk-framework.com/forum/)
